@@ -361,7 +361,7 @@ jobs:
           -o output/tools/apktool.jar
         echo '66cf4524a4a45a7f56567d08b2c9b6ec237bcdd78cee69fd4a59c8a0243aeafa  output/tools/apktool.jar' | sha256sum -c
         curl --fail --location --retry 3 \
-          https://raw.githubusercontent.com/iBotPeaches/Apktool/v2.12.1/LICENSE \
+          https://raw.githubusercontent.com/iBotPeaches/Apktool/v2.12.1/LICENSE.md \
           -o output/tools/Apktool-LICENSE.txt
         python3 - <<'KT_VERIFY'
         import struct, zipfile
